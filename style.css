@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+body { 
+    margin: 0;
+    background-image: url('img/Bubbles.jpg'); 
+    background-color: black; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    width: 30%;
+    border-color: rgb(15, 158, 158);
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+}
