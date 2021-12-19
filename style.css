@@ -2,7 +2,12 @@
     font-family: "Barlow Condensed";
     src: url('fonts/BarlowCondensed-Regular.ttf');
   }
-  
+
+@font-face {
+    font-family: "Raleway";
+    src: url('fonts/Raleway-Regular.ttf');
+}
+
 html, body {
     height: 100%;
 }
@@ -43,11 +48,12 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 h2 {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
 }
 
 p {
