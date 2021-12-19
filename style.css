@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Barlow Condensed";
+    src: url('fonts/BarlowCondensed-Regular.ttf');
+  }
+  
 html, body {
     height: 100%;
 }
@@ -41,7 +46,12 @@ h1 {
     font-size: 3rem;
     text-align: center;
 }
+h2 {
+    font-family: sans-serif;
+}
 
 p {
     font-size: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+
 }
